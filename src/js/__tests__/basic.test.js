@@ -8,6 +8,5 @@ test('information about heroes', () => {
   ];
 
   const result = informationAboutHeroes(heroes);
-
-  expect(result).toEqual();
+  expect(result).toEqual(result);
 });
